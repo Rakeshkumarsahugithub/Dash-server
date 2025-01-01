@@ -1,0 +1,51 @@
+# Node.js dependencies
+/node_modules/
+
+# Build output
+/dist/
+/build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+/.vscode/
+/.idea/
+/*.swp
+*.swo
+
+# Log files
+*.log
+
+# .env file (environment variables)
+.env
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Dependency directories (for npm, yarn, etc.)
+package-lock.json
+yarn.lock
+
+# Python bytecode files
+*.pyc
+__pycache__
+
+# Java artifact files
+*.class
+*.jar
+*.war
+
+# Coverage directories (for testing frameworks)
+coverage/
+
+# Other sensitive files (e.g., SSH keys, private keys)
+*.pem
+*.key
+*.crt
+
+# Optional: Ignore all test files (if not needed in the repo)
+tests/
