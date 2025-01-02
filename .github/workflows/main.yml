@@ -24,7 +24,8 @@ jobs:
     steps:
       - name: Pull image from Docker Hub
         run: docker pull rakesh127/my-node-app:latest
-        - name: Stop and Remove Existing Container
+
+      - name: Stop and Remove Existing Container
         run: |
           docker stop my-node-app-container || true
           docker rm my-node-app-container || true
