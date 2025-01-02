@@ -15,7 +15,7 @@ import Product from "./Products.js";
 dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
-
+const mongoPassword = process.env.MONGO_PASSWORD;
 // Middleware
 app.use(express.json());
 app.use(cookieParser());
@@ -280,5 +280,5 @@ app.get("/search/:key", authMiddleware, async (req, res) => {
 // Start Server
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
-});
+});  
 
