@@ -17,5 +17,5 @@ COPY . .
 EXPOSE 5000
 
 # Command to run the application
-CMD ["npm", "nodemon", "start"]
+CMD ["npm", "start"]
 
